@@ -19,3 +19,8 @@ pip intalar Flask
 pip freeze
 pip freeze > paquete.txt
 ``` 
+
+#### En caso de recrear el proyecto
+```
+pip install -r paquetes.txt
+```
