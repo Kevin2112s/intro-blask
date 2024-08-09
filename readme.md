@@ -24,3 +24,8 @@ pip freeze > paquete.txt
 ```
 pip install -r paquetes.txt
 ```
+
+#### Taer cambios del repositorio 
+```
+git pull origin main 
+```
