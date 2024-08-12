@@ -9,7 +9,7 @@ python /m venv .env
 source .env/bin/activate
 ```
 
-#### install Flask
+#### install Flask 
 ```python
 pip intalar Flask 
 ```
@@ -32,4 +32,12 @@ git pull origin main
 #### Crear ramas hijas 
 ```
 git checkout -b rama-hija
+```
+#### Moverse entre ramas 
+```
+git checkout nombre de rama
+```
+#### mostrar las ramas, incluida la que esta en uso 
+```
+git branch 
 ```

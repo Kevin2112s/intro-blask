@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Holis</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/boostrap.min.css')}}">
 </head>
 <body>
-    <h3>Hola desde el servidor</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, facere atque. Dolores perspiciatis non, quo quae voluptate animi mollitia accusantium? Enim accusantium voluptatum cupiditate incidunt ratione repellat deleniti saepe inventore!</p>
-    
+    <h3>Holis desde el servidor</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima magni nulla, voluptate quis impedit, voluptatum quia enim quae dolore assumenda, excepturi repellendus eum nobis nemo doloremque. Quasi iure atque reiciendis.</p>
+
+    <script scr="{{ url_for('static',filename='js/jquery.min.js')}}"></script>
+    <script scr="{{ url_for('static',filename='js/popper.min.js')}}"></script>
+    <script scr="{{ url_for('static',filename='js/bootstrap.bundle.min.js')}}"></script>
 </body>
-</html> 
+</html>
