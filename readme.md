@@ -1,6 +1,6 @@
 #### Crear entorno virtual
 ```python
-python /m venv .env
+python -m venv .env
 ```
 
 #### activamos el entorno virtual
@@ -40,4 +40,8 @@ git checkout nombre de rama
 #### mostrar las ramas, incluida la que esta en uso 
 ```
 git branch 
+``` 
+#### instalar el driver de la base de datos Postgresql
+```
+pip install psycopg2-binary
 ```
